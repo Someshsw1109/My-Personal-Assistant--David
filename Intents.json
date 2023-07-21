@@ -1,0 +1,290 @@
+{
+    "intents":[
+
+        {
+            "tag": "greeting",
+            "patterns":["hello", "hii", "hey", "David", "wake up"
+
+            ],
+            "response":["Hello sir","How are you sir", "Always there for you sir", "Here's your assistant sir in front of you."
+
+            ]
+
+
+        },
+        {
+            "tag": "bye",
+            "patterns":["bye", "good Bye", "see You Later", "bye david", "sleep Now", "exit"
+
+            ],
+            "response":["bye sir","i'm going sir", "it'll be nice to meet you again", "see you later", "i'm going"
+
+            ]
+
+
+        },
+        {
+            "tag": "health",
+            "patterns":["how are you", "how you", "are you fine", "David are you ok", "are you good"
+
+            ],
+            "response":["Fine sir","I'm perfect sir", "I'm cool sir", "I'm fit and perfect now are you too sir?", "Like you sir"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "identity",
+            "patterns":["your name", "what is your name", "who are you", "what are you"
+
+            ],
+            "response":["David sir","I am David","An A.I Assistant sir", "My Name is David sir", "Great Assistant sir "
+
+            ]
+
+
+        }, 
+        {
+            "tag": "time",
+            "patterns":["what is time", "what's the time", "time", "samay"
+
+            ],
+            "response":["time"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "date",
+            "patterns":["what is date", "date", "tareek", "what's the date", "date hai"
+
+            ],
+            "response":["date"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "day",
+            "patterns":["what is day", "day", "today is", "din", "what's the day"
+
+            ],
+            "response":["day"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "wikipedia",
+            "patterns":["who is", "about", "what is", "wikipedia"
+
+            ],
+            "response":["wikipedia"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "YouTube",
+            "patterns":["open YouTube"
+
+            ],
+            "response":["YouTube"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "google",
+            "patterns":["google search", "google", "search"
+
+            ],
+            "response":["google"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "facebook",
+            "patterns":["open facebook", "can you open facebook for me", "can you open facebook", "please open facebook", "open my facebook account", "facebook", "can you please open facebook", "can you please open my facebook account", "quickly open my facebook"
+
+            ],
+            "response":["facebook"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "instagram",
+            "patterns":["open instagram","can you open instagram for me", "can you open instagram", "please open instagram", "open my instagram account", "instagram", "can you please open instagram", "can you please open my instagram account", "quickly open my insta"
+
+            ],
+            "response":["instagram"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "twitter",
+            "patterns":["open twitter","can you open twitter for me", "can you open twitter", "please open twitter", "open my twitter account", "twitter", "can you please open twitter", "can you please open my twitter account", "quickly open my twitter account right now"
+
+            ],
+            "response":["twitter"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "chat GPT",
+            "patterns":["open chat GPT","can you open chat GPT for me", "can you open chat GPT", "please open chat GPT", "chat GPT", "can you please open chat GPT", "quickly open chat GPT right now"
+
+            ],
+            "response":["chat GPT"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "browser",
+            "patterns":["open browser","can you open browser for me", "can you open browser", "please open browser", "browser", "can you please open browser", "quickly open browser right now"
+
+            ],
+            "response":["browser"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "notepad",
+            "patterns":["open notepad","can you open notepad for me", "can you open notepad", "please open notepad", "notepad", "can you please open notepad", "quickly open notepad right now"
+
+            ],
+            "response":["notepad"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "IP address",
+            "patterns":["tell me the IP address", "what is the IP address", "tell me the current IP address", "can you please tell me the IP address", "what is the IP address of my current location", "quickly find my IP address"
+
+            ],
+            "response":["IP address"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "open camera",
+            "patterns":["camera", "open camera", "quickly open camera"
+
+            ],
+            "response":["open camera"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "command prompt",
+            "patterns":["command prompt", "open command prompt", "quickly open CMD"
+
+            ],
+            "response":["command prompt"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "Temperature",
+            "patterns":["Temperature", "Tell me the temperature outside", "quickly tell me the temperature", "Tell me the temperature of my current location", "Tell me the temperature of my current city"
+
+            ],
+            "response":["Temperature"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "Shut Down",
+            "patterns":["Shut down", "Shut Down the system", "Turn off my system", "Shut Down my system right now"
+
+            ],
+            "response":["Shut Down"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "where is",
+            "patterns":["where is"
+
+            ],
+            "response":["where is"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "spotify",
+            "patterns":["open spotify", "please open spotify", "can you open spotify for me"
+
+            ],
+            "response":["spotify"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "switch the window",
+            "patterns":["an you switch the window", "please switch the window", "can you please switch the current window for me"
+
+            ],
+            "response":["switch the window"
+
+            ]
+
+
+        }, 
+        {
+            "tag": "personal code",
+            "patterns":["personal code","open personal code","can you open personal code", "please open my personal code account", "can you please open personal code for me", "can you please open my personal code account"
+
+            ],
+            "response":["personal code"
+
+            ]
+
+
+        }
+
+    ]
+
+
+
+
+
+
+
+
+
+}
