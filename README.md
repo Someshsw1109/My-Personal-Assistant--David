@@ -4,8 +4,7 @@ This aims to develop a personal-assistant for windows-based systems.
 My Personal Assistant - 'David' draws its isnpiration from virtual assistants like Cortana for windows and (also some features will be added in future like Siri for iOS).
 
 It has been designed to provide a user-friendly interface for carrying out a variety of tasks by employing certain well-defined commands.
-
-----------------------------------------------------------------STATEMENT------------------------------------------------------------------
+----------STATEMENT----------
 
 
 As we know Python is an emerging language so it becomes easy to write a script for Voice Assistant in Python. The instructions for the assistant can be handled as per the requirement of user. Speech recognition is the process of converting speech into text. This is commonly used  in  voice  assistants  like  Alexa,  Siri,  etc.  In  Python  there  is  an  API  called SpeechRecognition which allows us to convert speech into text. It was an interesting task to  make  my  own  assistant.  It  became  easier  to  send  emails  without  typing  any  word, Searching on Google without opening the browser, and performing many other daily tasks like playing music, opening your favorite IDE with the help of a single voice command. In the current scenario, advancement in technologies are such that they can perform any task with  same  effectiveness  or  can  say  more  effectively  than  us.  By  making  this  project,  I realized that the concept of AI in every field is decreasing human effort and saving time. Functionalities of this project include: 
@@ -27,7 +26,7 @@ Now the basic question arises in mind that how it is an AI? The virtual assistan
 
 
 
->>>>>>>>>>>>> INTRODUCTION TO OUR PERSONAL VIRTUAL ASSISTANT - 'DAVID'
+INTRODUCTION TO OUR PERSONAL VIRTUAL ASSISTANT - 'DAVID':-
 
 Artificial Intelligence when we used with machines, it shows us the capabilty of thinking like humans. In this, a computer system is designed in such a way that typically requires interaction from human. As we know Python is an emerging languae so it becomes easy to write a script for voice assistant in python.
 
@@ -50,22 +49,24 @@ The functionality include in my 'David':-
 and so on.... there are 100+ functions included in my 'David'
 
 
->>>>>>>>>>>>>>>>>>>>>>>> TOOLS AND TECHNOLOGY USED:- I used VS code editor IDE for making this amazing project and I created all python files in VS code editor.
->>>>>>>>>>>>>>>>>>>>>>>> Modules used for making this project:- pyttsx3, speechrecognition, datetime, os, cv2, requests, wikipedia, webbrowser, pwhatkit, smtplib, sys, time, pyautogui, PyQt.......... and so on in this project i used 30+ modules in it.
+* TOOLS AND TECHNOLOGY USED:-
+  I used VS code editor IDE for making this amazing project and I created all python files in VS code editor.
+* Modules used for making this project:-
+  pyttsx3, speechrecognition, datetime, os, cv2, requests, wikipedia, webbrowser, pwhatkit, smtplib, sys, time, pyautogui, PyQt.......... and so on in this project i used 30+ modules in it.
 
 
-|||||||||||||||||||||||||||> DATA FLOW <|||||||||||||||||||||||||||||
+> DATA FLOW <
 
 The Data flow of 'David' is as follows:
 
->>>> START --> 1. Live GUI for interaction will appear on screen.
->>>> INPUT --> 2. It will take input through our voice commands related to the task which is required to be done.
->>>> PERFORM --> 3. It will perform the required tasks for the user like opening notepad, opening code editor, autotyping, autosaving the file, chrome automation, whatsapp automation, you tube automation and so on.... etc.
->>>> EXIT/QUIT --> 4. It keeps on asking command from user until the user say 'Quit' or any oher command which was written in your code for quitting your personal assistant. Once the user says that command, it quits or exit.
+* START --> 1. Live GUI for interaction will appear on screen.
+* INPUT --> 2. It will take input through our voice commands related to the task which is required to be done.
+* PERFORM --> 3. It will perform the required tasks for the user like opening notepad, opening code editor, autotyping, autosaving the file, chrome automation, whatsapp automation, you tube automation and so on.... etc.
+* EXIT/QUIT --> 4. It keeps on asking command from user until the user say 'Quit' or any oher command which was written in your code for quitting your personal assistant. Once the user says that command, it quits or exit.
 
 
 
---------------------> SCOPE FOR FUTURE WORK
+* SCOPE FOR FUTURE WORK
 
 1. Android app can be developed from this
 2. Make more voice terminals of this assistant.
