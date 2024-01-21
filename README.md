@@ -1,6 +1,10 @@
 # My-Personal-Assistant--David
 This aims to develop a personal-assistant for windows-based systems.
 
+
+![David-1](https://github.com/Someshsw1109/My-Personal-Assistant--David/assets/123828588/005336a5-ee57-43c2-837b-c6025e11727e)
+
+
 My Personal Assistant - 'David' draws its isnpiration from virtual assistants like Cortana for windows and (also some features will be added in future like Siri for iOS).
 
 It has been designed to provide a user-friendly interface for carrying out a variety of tasks by employing certain well-defined commands.
