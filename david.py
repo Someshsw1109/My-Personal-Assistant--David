@@ -3,6 +3,12 @@ import json
 import torch
 from brain import neuralNetwork
 from brain2 import Bag_Of_Words,token_size
+from flask import *
+from flask import Flask, request, jsonify
+from flask_sslify import SSLify
+app = Flask(__name__)
+sslify = SSLify(app)
+
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 with open('intents.json', 'r') as json_data:
@@ -35,11 +41,11 @@ from taskexecution import InputExecution
 from taskexecution import WishMe
 
 
+@app.route('/')
+def index():
+    return "David- A personal Assistant"
 
-
-if 1:
-    WishMe()
-
+@app.route('/Main', methods=['POST'])
 def Main():
     
     sentence = Listen()
@@ -152,21 +158,15 @@ def Main():
                 
                 elif "tell me about" in reply:
                     InputExecution(reply, result)
-                    
-
-                
-
-                # elif "State Drive" in reply:
-                #     InputExecution(reply, result)
-                #     Say("sir as per your order i'm opening your solid state drive....")
 
                 else:
                     Say(reply)
-
-while True:
-    Main()
+    return jsonify({'response': 'your response here'})
 
 
+if __name__ == "__main__":
+    WishMe()
+    app.run(ssl_context=("C:\\ProgramData\\chocolatey\\bin\\self_signed_cert.pem", "C:\\ProgramData\\chocolatey\\bin\\self_signed_key.pem"))
 
 
         
