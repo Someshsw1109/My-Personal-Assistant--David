@@ -71,8 +71,8 @@ The Data flow of 'David' is as follows:
 * PERFORM --> 3. It will perform the required tasks for the user like opening notepad, opening code editor, autotyping, autosaving the file, chrome automation, whatsapp automation, you tube automation and so on.... etc.
 * EXIT/QUIT --> 4. It keeps on asking command from user until the user say 'Quit' or any oher command which was written in your code for quitting your personal assistant. Once the user says that command, it quits or exit.
 
-
-
+> REQUIREMENTS FOR THIS PRJOECT <
+![requirements](https://github.com/Someshsw1109/My-Personal-Assistant--David/assets/123828588/81433834-ad5a-49de-a009-5ae3af7808e3)
 * SCOPE FOR FUTURE WORK
 
 1. Android app can be developed from this
