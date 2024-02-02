@@ -33,7 +33,7 @@ Now the basic question arises in mind that how it is an AI? The virtual assistan
 
 
 
-INTRODUCTION TO OUR PERSONAL VIRTUAL ASSISTANT - 'DAVID':-
+> INTRODUCTION TO OUR PERSONAL VIRTUAL ASSISTANT - 'DAVID' <
 
 Artificial Intelligence when we used with machines, it shows us the capabilty of thinking like humans. In this, a computer system is designed in such a way that typically requires interaction from human. As we know Python is an emerging languae so it becomes easy to write a script for voice assistant in python.
 
@@ -72,6 +72,7 @@ The Data flow of 'David' is as follows:
 * EXIT/QUIT --> 4. It keeps on asking command from user until the user say 'Quit' or any oher command which was written in your code for quitting your personal assistant. Once the user says that command, it quits or exit.
 
 > REQUIREMENTS FOR THIS PRJOECT <
+
 ![requirements](https://github.com/Someshsw1109/My-Personal-Assistant--David/assets/123828588/81433834-ad5a-49de-a009-5ae3af7808e3)
 * SCOPE FOR FUTURE WORK
 
