@@ -1,0 +1,45 @@
+Modules we imported in this prjoect:-
+--------------------------------------
+-> import torch.nn as nn (pip install torch)
+-> import numpy as np (pip install numpy)
+-> import nltk (pip install nltk)
+-> from nltk.stem.porter import PorterStemmer(PorterStemmer from Natural language tool kit)
+-> import random (pip install random)
+-> import json (pip install json)
+-> import sys (Automatically installed in your system, No need to install it)
+-> import torch (pip install torch)
+-> from PyQt5 import QtWidgets, QtCore, QtGui (pip install PyQt5)
+-> from PyQt5.QtCore import QObject, QTimer, QTime, QDate, Qt (From PyQt5, you need to import all these modules mentioned below)
+-> from PyQt5.QtGui import QMovie
+-> from PyQt5.QtCore import *
+-> from PyQt5.QtGui import *
+-> from PyQt5.QtWidgets import *
+-> from PyQt5.uic import loadUiType
+-> from DavidUI import Ui_Dialog (I create a DavidUI.py File, from this python script you need to import the Ui_Dialog class which i have created in DavidUI.py) 
+-> from brain import neuralNetwork (I created a brain.py file, from this file you need to import neuralNetwork class which i have created in brain.py)
+-> from brain2 import Bag_Of_Words,token_size (I created another python script file named brain2.py, from this you need to import the Bag_Of_Words and token_size functions which i have created in this file)
+-> from flask import * (pip install flask, and import everything from flask)
+-> from flask import Flask, request, jsonify
+-> from flask_sslify import SSLify
+-> import speech_recognition as sr (pip install speechrecognition)
+-> # import pvporcupine if you want to install, then install it.
+-> # import struct if you want to install, then install it. But don't worry about that error messages because it is not necessary for our project.
+-> import datetime (Pre-installed in your system)
+-> from Speak import Say (from speka.py , need to import Say function)
+-> from email import encoders, message ( These are not necessary for our project but if you want to send emails by using your voice assistant then you can proceed)
+-> from email.mime.base import MIMEBase
+-> from email.mime.multipart import MIMEMultipart
+-> from email.mime.text import MIMEText
+-> import smtplib (pip install smtplib)
+-> import requests (pip install requests)
+-> from torch.utils.data import Dataset,DataLoader (from torch you need to import Dataset, DataLoader)
+-> import pyttsx3 (pip install pyttsx3)
+-> import wikipedia (pip install wikipedia)
+-> import pywhatkit (pip install pywhatkit)
+-> import webbrowser (pip install webbrowser)
+-> import os (Pre-installed in your system no need to install)
+-> import cv2 (pip3 install opencv-python)
+-> import pyautogui (pip install pyautogui)
+
+---------------------------------------------------------------------------------
+*** You need to install a chromedriver.exe file this is a webdriver of chrome.
