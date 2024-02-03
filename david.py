@@ -57,8 +57,8 @@ class MainThread(QThread):
         self.Main()
 
     # @app.route('/')
-    # def index(self):
-    #     return "David- A personal Assistant"
+    def index(self):
+        return "David- A personal Assistant"
 
     # @app.route('/Main', methods=['POST'])
     def Main(self):
@@ -82,7 +82,7 @@ class MainThread(QThread):
         if prob.item() > 0.75:
             for intent in intents['intents']:
                 if tag == intent['tag']:
-                    self.reply = self.random.choice(intent["response"])
+                    self.reply = random.choice(intent["response"])
                 
                     if "time" in self.reply:
                         Say("Sir the time is:")
@@ -176,14 +176,10 @@ class MainThread(QThread):
 
                     else:
                         Say(self.reply)
-        return jsonify({'response': 'your response here'})
+        # return jsonify({'response': 'your response here'})
 
 
-    if __name__ == "__main__":
-        WishMe()
-        # app.run(ssl_context=("C:\\ProgramData\\chocolatey\\bin\\self_signed_cert.pem", "C:\\ProgramData\\chocolatey\\bin\\self_signed_key.pem"))
 
-StartThread = MainThread()
 
 class main(QMainWindow):
     def __init__(self):
@@ -250,11 +246,15 @@ class main(QMainWindow):
         label_date = current_date.toString(Qt.ISODate)
         self.ui.textBrowser.setText(label_date)
         self.ui.textBrowser_2.setText(label_time)    
-
-app = QApplication(sys.argv)
-David = main()
-David.show()
-exit(app.exec_())
+if __name__ == "__main__":
+    WishMe()
+    StartThread = MainThread()
+        # app.run(ssl_context=("C:\\ProgramData\\chocolatey\\bin\\self_signed_cert.pem", "C:\\ProgramData\\chocolatey\\bin\\self_signed_key.pem"))
+    while True:
+        app = QApplication(sys.argv)
+        David = main()
+        David.show()
+        exit(app.exec_())
 
 
 
