@@ -319,16 +319,20 @@
             ]
 
 
+        }, 
+        {
+            "tag": "Open My Game website",
+            "patterns":["Open My Game", "Game", "Launch my game"
+
+            ],
+            "response":["Open My Game website"
+
+            ]
+
+
         }
 
     ]
 
-
-
-
-
-
-
-
-
+    
 }
