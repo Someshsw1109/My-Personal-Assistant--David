@@ -109,6 +109,10 @@ class MainThread(QThread):
                     elif "YouTube" in self.reply:
                         InputExecution(self.reply, result)
                         Say("sir as per your order i'm opening you tube for you...")
+                    
+                    elif "Open My Game website" in self.reply:
+                        InputExecution(self.reply, result)
+                        Say("sir as per your order i'm opening your game website for you...")
 
                     elif "facebook" in self.reply:
                         InputExecution(self.reply, result)
@@ -247,14 +251,11 @@ class main(QMainWindow):
         self.ui.textBrowser.setText(label_date)
         self.ui.textBrowser_2.setText(label_time)    
 if __name__ == "__main__":
-    WishMe()
     StartThread = MainThread()
-        # app.run(ssl_context=("C:\\ProgramData\\chocolatey\\bin\\self_signed_cert.pem", "C:\\ProgramData\\chocolatey\\bin\\self_signed_key.pem"))
+    WishMe()
+    # app.run(ssl_context=("C:\\ProgramData\\chocolatey\\bin\\self_signed_cert.pem", "C:\\ProgramData\\chocolatey\\bin\\self_signed_key.pem"))
     while True:
         app = QApplication(sys.argv)
         David = main()
         David.show()
         exit(app.exec_())
-
-
-
