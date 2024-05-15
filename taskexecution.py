@@ -1,23 +1,14 @@
 #Function used in this python file is of two types
 #1- Non-Input
 # ex:- Time, Date, Speedtest
-
-
 import datetime
 from Speak import Say
-import cv2
 from email import encoders, message
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 import requests
-
-
-
-
-
-
 def Time(): 
     time = datetime.datetime.now().strftime("%I:%M %p")
     Say(time)
@@ -45,10 +36,6 @@ def WishMe():
 
     Say("Hey sir I am your personal assistant how may i help you.... please tell me..... i am always there for you sir....")
 
-
-
-
-
 def NonInputExecution(query):
     query = str(query)
 
@@ -61,14 +48,8 @@ def NonInputExecution(query):
     elif "day" in query:
         Day()
 
-    
-    
-
 #2 - Input
 # ex:- google search, wikipedia
-
-
-
 
 def InputExecution(tag,query):
 
@@ -142,10 +123,6 @@ def InputExecution(tag,query):
                 break;
             cap.release()
             cv2.destroyAllWindows() 
-
-          
-
-    
 
     # elif "State drive" in tag:
     #     query = str(query).replace("SSD", "")
@@ -242,4 +219,9 @@ def InputExecution(tag,query):
         resInfo = kit.info(query, lines=2)
         print(resInfo)
         Say(f"Sir, {resInfo}")
-        
+
+    elif "Open My Game website" in tag:
+        query = str(query).replace("Open My Game website", "")
+        Say("Ok sir please wait, I'm opening your 2048 Game website")
+        import webbrowser as wb
+        wb.open("https://2048-sr-tech.vercel.app/")
